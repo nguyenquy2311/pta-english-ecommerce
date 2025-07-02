@@ -1,0 +1,99 @@
+@import url(../../variable.css);
+.courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F7F7;
+    padding-bottom:35px;
+}
+.courses-header{
+    width: 100%;
+    display: flex;
+    padding: 70px 35px;
+    justify-content: space-between;
+}
+.courses-header-name > p{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 24.6428px;
+    line-height: 30px;
+    letter-spacing: 0.18538em;
+}
+.courses-header-name > h1{
+    font-family: var(--primary-font);
+    font-weight: 800;
+    font-size: 65.7141px;
+    line-height: 77px;
+}
+.courses-body{
+    padding: 0 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.courses-body-course{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 3px 8px 8px #a2a2a2;
+    gap: 10px;
+    width: 710px;
+    height: 245px;
+}
+.courses-body-course-content{
+    display: flex;
+    flex-direction: column;
+    padding:15px 10px;
+    gap:18px;
+}
+.courses-body-course-content > h1{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 24.6428px;
+    line-height: 34px;
+    color: #1E3A8A;
+    text-transform: uppercase;
+}
+.courses-body-course-content > p{
+    font-family: var(--secondary-font);
+    color: #3E3E3E;
+}
+.courses-body-course-content > p:nth-child(4){
+    text-transform: uppercase;
+}
+.courses-body-course-content > p:nth-child(4) > span{
+    text-transform: capitalize;
+}
+.courses-body-course-content > p > span{
+    font-weight: 600;
+}
+.courses-body-course-content-description{
+    display: flex;
+    justify-content: space-between;
+}
+.courses-body-course-content-description--star{
+    display: flex;
+    gap: 5px;   
+}
+.courses-body-course-content-description--star > P{
+    color: #F2D100;
+    font-weight: 700;
+    font-family: var(--secondary-font);
+}
+.courses-body-course-content-description--more{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.courses-body-course-content-description--more > p{
+    font-family: var(--secondary-font);
+    color: #1E90FF;
+    border-bottom: 1px solid #1E90FF;
+}
+.courses > button{
+    margin-top: 90px;
+}
+
+

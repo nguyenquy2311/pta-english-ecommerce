@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "basic english",
+        "level": null,
+        "img": "../public/courses/basicenglish.webp",    
+        "targetclient": "lấy gốc phát âm và ngữ pháp cơ bản, không còn là \"Mình không biết tiếng Anh.\"",
+        "content": "các kiến thức phát âm và ngữ pháp cơ bản",
+        "outcome": "ielts 2.5",
+        "numberStar": 4.8
+    },
+    {
+        "id": 2,
+        "name": "basic english",
+        "level": null,
+        "img": "../public/courses/basicenglish.webp",    
+        "targetclient": "lấy gốc phát âm và ngữ pháp cơ bản, không còn là \"Mình không biết tiếng Anh.\"",
+        "content": "các kiến thức phát âm và ngữ pháp cơ bản",
+        "outcome": "ielts 2.5",
+        "numberStar": 4.8
+    },
+    {
+        "id": 3,
+        "name": "basic english",
+        "level": null,
+        "img": "../public/courses/basicenglish.webp",    
+        "targetclient": "lấy gốc phát âm và ngữ pháp cơ bản, không còn là \"Mình không biết tiếng Anh.\"",
+        "content": "các kiến thức phát âm và ngữ pháp cơ bản",
+        "outcome": "ielts 2.5",
+        "numberStar": 4.8
+    },
+    {
+        "id": 4,
+        "name": "basic english",
+        "level": null,
+        "img": "../public/courses/basicenglish.webp",    
+        "targetclient": "lấy gốc phát âm và ngữ pháp cơ bản, không còn là \"Mình không biết tiếng Anh.\"",
+        "content": "các kiến thức phát âm và ngữ pháp cơ bản",
+        "outcome": "ielts 2.5",
+        "numberStar": 4.8
+    },
+    {
+        "id": 5,
+        "name": "basic english",
+        "level": null,
+        "img": "../public/courses/basicenglish.webp",    
+        "targetclient": "lấy gốc phát âm và ngữ pháp cơ bản, không còn là \"Mình không biết tiếng Anh.\"",
+        "content": "các kiến thức phát âm và ngữ pháp cơ bản",
+        "outcome": "ielts 2.5",
+        "numberStar": 4.8
+    },
+    {
+        "id": 6,
+        "name": "basic english",
+        "level": null,
+        "img": "../public/courses/basicenglish.webp",    
+        "targetclient": "lấy gốc phát âm và ngữ pháp cơ bản, không còn là \"Mình không biết tiếng Anh.\"",
+        "content": "các kiến thức phát âm và ngữ pháp cơ bản",
+        "outcome": "ielts 2.5",
+        "numberStar": 4.8
+    }
+]

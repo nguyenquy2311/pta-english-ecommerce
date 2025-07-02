@@ -1,0 +1,53 @@
+.header-herosection{
+    width: 100%;
+    height: max-content;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    padding:35px 120px 0 120px;
+}
+.header-herosection-rightcontent{
+    width: 50%;
+    height: 670px;
+}
+.header-herosection-rightcontent--content{
+    margin-top:100px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header-herosection-rightcontent--content > p:nth-child(1){
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 32.857px;
+    line-height: 39px;
+    color: #C50003;
+}
+.header-herosection-rightcontent--content > h1{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 52.5712px;   
+    line-height: 62px;
+}
+.header-herosection-rightcontent--content > p:nth-child(3){
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 32.857px;
+    line-height: 39px;
+    color:#909090;
+}
+.header-herosection-leftimage{
+    width: 50%;
+    height: 597px;
+    object-fit: cover;
+    z-index: 1;
+}
+.header-herosection > img:nth-child(3){
+    position: absolute;
+    width: 60%;
+    height: 705px;
+    right: 0;
+    z-index: -1;
+}
