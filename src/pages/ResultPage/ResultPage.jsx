@@ -1,7 +1,7 @@
 import React from "react";
 import { useState,useEffect } from "react";
 import { getResultData } from "../../services/getData";
-import Logo from "../../../public/logo/ptalogo.webp";
+import Logo from "/logo/ptalogo.webp";
 import './ResultPage.css';
 
 function ResultPage(){

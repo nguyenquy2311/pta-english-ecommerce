@@ -1,8 +1,8 @@
 import React from "react";
-import ptalogo from '../../../public/logo/ptalogo.webp';
-import heroimage from '../../../public/Herosection/herosection.webp';
-import pseudoheroimage from '../../../public/Herosection/pseudohero.webp';
-import CTAButton from "../CTAButton/CTAButton";
+import ptalogo from '/logo/ptalogo.webp';
+import heroimage from '/Herosection/herosection.webp';
+import pseudoheroimage from '/Herosection/pseudohero.webp';
+import CTAButton from '../CTAButton/CTAButton.jsx';
 import './Herosection.css';
 
 function Herosection(){

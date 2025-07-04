@@ -1,6 +1,6 @@
 import React from "react";
 import CTAButton from "../CTAButton/CTAButton";
-import Tick from '../../../public/courses/tick.webp';
+import Tick from '/courses/tick.webp';
 import './LeftImageCourse.css';
 
 function LeftImageCourse({
@@ -17,7 +17,7 @@ function LeftImageCourse({
     return (
         <div className="coursedetail-left">
             <div className="coursedetail-left-title">
-                <img src="../../../public/courses/basicenglish.webp" alt="" width="440px" height="440px"/>
+                <img src="../../../courses/basicenglish.webp" alt="" width="440px" height="440px"/>
                 <h1>{name}</h1>
             </div>
             <div className="coursedetail-left-des">

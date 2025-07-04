@@ -1,6 +1,6 @@
 import React from "react";
 import CTAButton from "../CTAButton/CTAButton";
-import Tick from '../../../public/courses/tick.webp';
+import Tick from '/courses/tick.webp';
 import './RightImageCourse.css';
 
 function RightImageCourse({

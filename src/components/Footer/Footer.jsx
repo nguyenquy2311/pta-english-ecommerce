@@ -1,11 +1,11 @@
 import React from "react";
-import Logo from "../../../public/logo/ptalogo.webp";
-import Phone from '../../../public/footer/phone.webp';
-import Email from '../../../public/footer/email.webp';
-import Facebook from '../../../public/footer/fb.webp';
-import Instagram from '../../../public/footer/ig.webp';
-import Threads from '../../../public/footer/threads.webp';
-import Youtube from '../../../public/footer/youtube.webp';
+import Logo from "/logo/ptalogo.webp";
+import Phone from '/footer/phone.webp';
+import Email from '/footer/email.webp';
+import Facebook from '/footer/fb.webp';
+import Instagram from '/footer/ig.webp';
+import Threads from '/footer/threads.webp';
+import Youtube from '/footer/youtube.webp';
 import './Footer.css';
 
 function Footer(){

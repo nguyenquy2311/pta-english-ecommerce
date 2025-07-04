@@ -1,6 +1,6 @@
 import React from "react";
 import CTAButton from "../../components/CTAButton/CTAButton";
-import Image from "../../../public/form/formimage.webp";
+import Image from "/form/formimage.webp";
 import './Form.css';
 
 function Form(){

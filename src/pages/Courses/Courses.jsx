@@ -1,9 +1,9 @@
 import React from "react";
-import Logo from '../../../public/logo/ptalogo.webp';
+import Logo from '/logo/ptalogo.webp';
 import { getCoursesData } from "../../services/getData";
 import { useEffect, useState } from "react";
-import Star from "../../../public/courses/star.webp";
-import MoreArrow from "../../../public/courses/morearrow.webp";
+import Star from "/courses/star.webp";
+import MoreArrow from "/courses/morearrow.webp";
 import CTAButton from "../../components/CTAButton/CTAButton";
 import LeftImageCourse from "../../components/LeftImageCourse/LeftImageCourse";
 import RightImageCourse from "../../components/RightImageCourse/RightImageCourse";
