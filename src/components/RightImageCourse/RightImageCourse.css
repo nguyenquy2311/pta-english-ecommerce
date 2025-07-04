@@ -1,18 +1,19 @@
-.coursedetail-left{
+.coursedetail-right{
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
-    background-color: white;
+    background-color: #F7F7F7;
     gap: 70px;
     padding: 80px 100px;
     width: 100%;
     height: 100vh;
 }
-.coursedetail-left-title{
+.coursedetail-right-title{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.coursedetail-left-title > h1{
+.coursedetail-right-title > h1{
     font-family: var(--primary-font);
     font-weight: 700;
     font-size: 57.4998px;
@@ -21,30 +22,22 @@
     line-height: 78px;
     color: #1E3A8A;
 }
-.coursedetail-left-des{
+.coursedetail-right-des{
     display: flex;
     flex-direction: column;
     gap:10px;
 }
-.coursedetail-left-des > p{
-    font-size: 24.6428px;
+.coursedetail-right-des > p{
+    font-family: var(--primary-font);
     font-weight: 500;
-    gap: 10px;
+    font-size: 24.6428px;
 }
-.coursedetail-left-des > p > img{
+.coursedetail-right-des > p > img{
     margin-right: 7.5px;
 }
-.coursedetail-left-des > p > span{
+.coursedetail-right-des > p > span{
     font-family: var(--primary-font);
     font-size: 24.6428px;
     font-weight: 800;
     color: #1E3A8A;
-}
-.coursedetail-left-des > p{
-    font-family: var(--primary-font);
-    font-weight: 500;
-}
-.coursedetail-left-des > p:nth-child(7){
-    font-weight: 700;
-    font-family: var(--secondary-font);
 }

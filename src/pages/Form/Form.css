@@ -1,0 +1,86 @@
+.form{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: max-content;
+    gap:55px;
+    background-color: #1E3E8A;
+    padding: 40px 45px 40px 45px;
+}
+.form-rightcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.form-rightcontent > h1{
+    font-family: var(--primary-font);
+    font-weight: 800;
+    font-size: 57px;
+    width: 500px;
+    text-align: start;
+    color: #FFFFFF;
+}
+.form-rightcontent > p{
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.5356px;
+    text-align: start;
+    width: 500px;
+    color: #CFCFCF;
+}
+.form-leftcontent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.form-leftcontent > div > p{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20.5356px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+.form-leftcontent-input > div > p{
+    font-family: var(--primary-font);
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 20.5356px;
+    line-height: 24px;
+    color: #FFFFFF; 
+}
+.form-leftcontent > div > input{
+    width: 100%;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+.form-leftcontent > div > select{
+    width: 100%;
+    height: 55px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+.form-leftcontent-input{
+    display: flex;
+    justify-content: space-between;
+}
+.form-leftcontent-input > div > input{
+    width: 435px;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+.form-leftcontent > button{
+    margin-top: 10px;
+    width: 100%;
+}

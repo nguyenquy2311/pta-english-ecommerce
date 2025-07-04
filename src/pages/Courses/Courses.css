@@ -41,6 +41,11 @@
     gap: 10px;
     width: 710px;
     height: 245px;
+    transition: border 0.1s ease-in-out;
+}
+.courses-body-course:hover{
+    border: 3px solid #1E90FF;
+    cursor: pointer;
 }
 .courses-body-course-content{
     display: flex;

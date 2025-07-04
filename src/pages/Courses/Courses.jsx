@@ -6,6 +6,7 @@ import Star from "../../../public/courses/star.webp";
 import MoreArrow from "../../../public/courses/morearrow.webp";
 import CTAButton from "../../components/CTAButton/CTAButton";
 import LeftImageCourse from "../../components/LeftImageCourse/LeftImageCourse";
+import RightImageCourse from "../../components/RightImageCourse/RightImageCourse";
 import './Courses.css';
 
 function Courses({
@@ -68,7 +69,39 @@ function Courses({
                 <CTAButton />
             </div>
 
-            <LeftImageCourse/>
+            {coursesData.map((course,index) => {
+                if (index % 2 == 0) {
+                    return (
+                        <LeftImageCourse
+                            key={course.id}
+                            name = {course.name}
+                            img = {course.img}
+                            casestudy = {course.casestudy}
+                            totalstudent = {course.totalstudent}
+                            time = {course.time}
+                            targetclient = {course.targetclient}
+                            content = {course.content}
+                            outcome = {course.outcome}
+                        />
+                    )
+                }
+                else{
+                    return (
+                        <RightImageCourse
+                            key={course.id}
+                            name = {course.name}
+                            img = {course.img}
+                            casestudy = {course.casestudy}
+                            totalstudent = {course.totalstudent}
+                            time = {course.time}
+                            targetclient = {course.targetclient}
+                            content = {course.content}
+                            outcome = {course.outcome}
+                        />
+                    )
+                }
+            })}
+
         </>
     )
 }

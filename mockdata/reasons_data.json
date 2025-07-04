@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "img": "../public/assets/creative.webp",
+        "title": "kiến thức",
+        "content": "\"Đơn giản dễ hiểu\" là phương châm của thầy. Áp dụng AI hỗ trợ học tập."
+    },
+    {
+        "id": 2,
+        "img": "../public/assets/exp.webp",
+        "title": "Kinh nghiệm",
+        "content": "giảng dạy tiếng Anh và IELTS từ 2020, cũng như đã có kết quả học viên."
+    },
+    {
+        "id": 3,
+        "img": "../public/assets/group.webp",
+        "title": "Trải nghiệm",
+        "content": "đã kinh qua nhiều nhóm học viên từ học sinh, sinh viên, đến người đi làm."
+    }
+]

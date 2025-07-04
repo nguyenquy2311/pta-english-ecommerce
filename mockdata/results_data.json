@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "img": "../public/results/result1.webp"
+    },
+    {
+        "id": 2,
+        "img": "../public/results/result4.webp"
+    },
+    {
+        "id": 3,
+        "img": "../public/results/result3.webp"
+    }
+]

@@ -5,7 +5,7 @@
     z-index: 1;
     display: flex;
     align-items: flex-end;
-    padding:35px 120px 0 120px;
+    padding:35px 45px 0 45px;
 }
 .header-herosection-rightcontent{
     width: 50%;
@@ -13,7 +13,6 @@
 }
 .header-herosection-rightcontent--content{
     margin-top:100px;
-    margin-left: 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -40,8 +39,8 @@
 }
 .header-herosection-leftimage{
     width: 50%;
-    height: 597px;
-    object-fit: cover;
+    height: 657px;
+    object-fit: contain;
     z-index: 1;
 }
 .header-herosection > img:nth-child(3){

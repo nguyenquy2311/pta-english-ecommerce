@@ -7,16 +7,22 @@
         "targetclient": "lấy gốc phát âm và ngữ pháp cơ bản, không còn là \"Mình không biết tiếng Anh.\"",
         "content": "các kiến thức phát âm và ngữ pháp cơ bản",
         "outcome": "ielts 2.5",
+        "casestudy": "online qua zoom",
+        "totalstudent": "6 học viên / lớp",
+        "time": "3 tháng, 3 buổi / tuần",
         "numberStar": 4.8
     },
     {
         "id": 2,
         "name": "basic english",
         "level": null,
-        "img": "../public/courses/basicenglish.webp",    
+        "img": "../public/courses/pre-ielts.webp",    
         "targetclient": "lấy gốc phát âm và ngữ pháp cơ bản, không còn là \"Mình không biết tiếng Anh.\"",
         "content": "các kiến thức phát âm và ngữ pháp cơ bản",
         "outcome": "ielts 2.5",
+        "casestudy": "online qua zoom",
+        "totalstudent": "6 học viên / lớp",
+        "time": "3 tháng, 3 buổi / tuần",
         "numberStar": 4.8
     },
     {
@@ -27,16 +33,22 @@
         "targetclient": "lấy gốc phát âm và ngữ pháp cơ bản, không còn là \"Mình không biết tiếng Anh.\"",
         "content": "các kiến thức phát âm và ngữ pháp cơ bản",
         "outcome": "ielts 2.5",
+        "casestudy": "online qua zoom",
+        "totalstudent": "6 học viên / lớp",
+        "time": "3 tháng, 3 buổi / tuần",
         "numberStar": 4.8
     },
     {
         "id": 4,
         "name": "basic english",
         "level": null,
-        "img": "../public/courses/basicenglish.webp",    
+        "img": "../public/courses/pre-ielts.webp",    
         "targetclient": "lấy gốc phát âm và ngữ pháp cơ bản, không còn là \"Mình không biết tiếng Anh.\"",
         "content": "các kiến thức phát âm và ngữ pháp cơ bản",
         "outcome": "ielts 2.5",
+        "casestudy": "online qua zoom",
+        "totalstudent": "6 học viên / lớp",
+        "time": "3 tháng, 3 buổi / tuần",
         "numberStar": 4.8
     },
     {
@@ -47,16 +59,22 @@
         "targetclient": "lấy gốc phát âm và ngữ pháp cơ bản, không còn là \"Mình không biết tiếng Anh.\"",
         "content": "các kiến thức phát âm và ngữ pháp cơ bản",
         "outcome": "ielts 2.5",
+        "casestudy": "online qua zoom",
+        "totalstudent": "6 học viên / lớp",
+        "time": "3 tháng, 3 buổi / tuần",
         "numberStar": 4.8
     },
     {
         "id": 6,
         "name": "basic english",
         "level": null,
-        "img": "../public/courses/basicenglish.webp",    
+        "img": "../public/courses/pre-ielts.webp",    
         "targetclient": "lấy gốc phát âm và ngữ pháp cơ bản, không còn là \"Mình không biết tiếng Anh.\"",
         "content": "các kiến thức phát âm và ngữ pháp cơ bản",
         "outcome": "ielts 2.5",
+        "casetudy": "online qua zoom",
+        "totalstudent": "6 học viên / lớp",
+        "time": "3 tháng, 3 buổi / tuần",
         "numberStar": 4.8
     }
 ]
