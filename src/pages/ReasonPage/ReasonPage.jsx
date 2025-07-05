@@ -2,7 +2,7 @@ import React from "react";
 import ReasonCard from "../../components/ReasonCard/ReasonCard";
 import { useState,useEffect } from "react";
 import { getReasonData } from "../../services/getData";
-import './reasonPage.css';
+import './ReasonPage.css';
 
 function ReasonPage(){
     const [reasonData,setReasonData] = useState([]);
