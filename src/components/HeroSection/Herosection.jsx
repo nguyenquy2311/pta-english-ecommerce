@@ -5,7 +5,7 @@ import pseudoheroimage from '/Herosection/pseudohero.webp';
 import CTAButton from '../CTAButton/CTAButton.jsx';
 import './Herosection.css';
 
-function Herosection(){
+function Herosection() {
     return (
         <div class="header-herosection">
             <div className="header-herosection-rightcontent">
@@ -17,8 +17,10 @@ function Herosection(){
                     <CTAButton />
                 </div>
             </div>
-            <img className="header-herosection-leftimage" src={heroimage} alt="hero" />
-            <img src={pseudoheroimage} alt="pseudo" />
+            <div className="header-herosection-leftimage" >
+                <img src={heroimage} alt="hero" />
+                <img src={pseudoheroimage} alt="pseudo" />
+            </div>
         </div>
     );
 }

@@ -48,3 +48,28 @@
     font-weight: 700;
     font-family: var(--secondary-font);
 }
+.coursedetail-left-des > button{
+    width: 100%;
+}
+
+@media ( min-width: 1030px ) and ( max-width: 1260px) {
+    .coursedetail-left-title > img{
+        width: 340px;
+        height: 340px;
+    }
+    .coursedetail-left-title > h1{
+        font-size: 47px;
+    }
+}
+
+@media ( min-width: 520px ) and ( max-width: 1030px){
+    .coursedetail-left{
+        padding: 40px 20px;
+        flex-direction: column;
+        height: max-content;
+    }
+    .coursedetail-left-des > button{
+        width: 100%;
+        height: 80px;
+    }
+}

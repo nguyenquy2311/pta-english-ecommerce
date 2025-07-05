@@ -1,5 +1,5 @@
 export function getCoursesData(){
-    return  fetch('../../../mockdata/courses_data.json')
+    return  fetch('/mockdata/courses_data.json')
         .then((response) => {
             return response.json();
         })
@@ -12,7 +12,7 @@ export function getCoursesData(){
 }
 
 export function getReasonData(){
-    return fetch('../../../mockdata/reasons_data.json')
+    return fetch('/mockdata/reasons_data.json')
         .then((response) => {
             return response.json();
         })
@@ -25,7 +25,7 @@ export function getReasonData(){
 }
 
 export function getResultData(){
-    return fetch('../../../mockdata/results_data.json')
+    return fetch('/mockdata/results_data.json')
         .then((response) => {
             return response.json();
         })

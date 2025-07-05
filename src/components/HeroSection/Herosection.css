@@ -1,18 +1,25 @@
 .header-herosection{
     width: 100%;
-    height: max-content;
+    height: 670px;
     position: relative;
     z-index: 1;
     display: flex;
     align-items: flex-end;
-    padding:35px 45px 0 45px;
+    padding:0 0 0 45px;
 }
 .header-herosection-rightcontent{
-    width: 50%;
-    height: 670px;
+    width: 40%;
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+.header-herosection-rightcontent > img{
+    position: absolute;
+    top: 62px;
+    width: 200px;
+    height: 100px;
 }
 .header-herosection-rightcontent--content{
-    margin-top:100px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -31,22 +38,71 @@
     line-height: 62px;
 }
 .header-herosection-rightcontent--content > p:nth-child(3){
-    font-family: 'Raleway';
+    font-family: var(--primary-font);
     font-weight: 800;
     font-size: 32.857px;
     line-height: 39px;
     color:#909090;
 }
 .header-herosection-leftimage{
-    width: 50%;
-    height: 657px;
-    object-fit: contain;
-    z-index: 1;
-}
-.header-herosection > img:nth-child(3){
-    position: absolute;
+    position: relative; 
     width: 60%;
-    height: 705px;
-    right: 0;
+    height: 100%;
+}
+.header-herosection-leftimage > img:nth-child(1){
+    width: 80%;
+    height: 670px;
+    position: absolute;
+    object-fit: contain;
+    left: 25%;
+    z-index: 1;
+    bottom: 0;
+}
+.header-herosection-leftimage > img:nth-child(2){
+    position: absolute;
+    width: 100%;
+    height: 100%;
     z-index: -1;
+}
+
+@media (min-width: 950px) and (max-width: 1260px){
+    .header-herosection-leftimage > img:nth-child(1){
+        left: 17.5%;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 950px){
+    .header-herosection{
+        height: max-content;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 45px;
+    }
+    .header-herosection-leftimage{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .header-herosection-leftimage > img:nth-child(2){
+        display: none;
+    }
+    .header-herosection-leftimage > img:nth-child(1){
+        position: static;
+        width: 100%;
+        object-fit: cover;
+    }
+    .header-herosection-rightcontent{
+        flex-direction: column;
+        width: 100%;
+    }
+    .header-herosection-rightcontent > img{
+        position: static;   
+        margin-top:30px;
+    }
+    .header-herosection-rightcontent--content{
+        align-items: center;
+    }
+    .header-herosection-rightcontent--content > button{
+        height: 80px;
+    }
 }

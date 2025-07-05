@@ -60,7 +60,8 @@
     padding: 10px;
     outline: none;
 }
-.form-leftcontent > div > select{
+.form-leftcontent-who-select,
+.form-leftcontent-course-select{
     width: 100%;
     height: 55px;
     padding: 10px;
@@ -71,9 +72,16 @@
 .form-leftcontent-input{
     display: flex;
     justify-content: space-between;
+    gap:10px;
+}
+.form-leftcontent-input-birthdate{
+    width: 100%;
+}
+.form-leftcontent-input-email{
+    width: 100%;
 }
 .form-leftcontent-input > div > input{
-    width: 435px;
+    width: 100%;
     height: 55px;
     border-radius: 15px;
     border: none;
@@ -83,4 +91,34 @@
 .form-leftcontent > button{
     margin-top: 10px;
     width: 100%;
+}
+
+@media (min-width: 520px) and (max-width: 1150px){
+    .form{
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+    .form-rightcontent > img{
+        display: none;
+    }
+    .form-rightcontent > h1{
+        width: 100%;
+        text-align: center;
+    }
+    .form-rightcontent > p{
+        text-align: center;
+    }
+    .form-leftcontent > div > input{
+        height: 75px;
+    }
+    .form-leftcontent-input > div > input{
+        height: 75px;
+    }
+    .form-leftcontent>div>select{
+        height: 75px;
+    }
+    .form-leftcontent > button{
+        width: 100%;
+        height: 80px;
+    }
 }

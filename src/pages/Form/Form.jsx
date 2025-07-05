@@ -32,7 +32,7 @@ function Form(){
                 </div>
                 <div className="form-leftcontent-who">
                     <p>Bạn là ?</p>
-                    <select name="" id="" >
+                    <select className="form-leftcontent-who-select" name="" id="" >
                         <option value="" disabled selected hidden>Lựa chọn</option>
                         <option value="">Học sinh</option>
                         <option value="">Sinh viên</option>
@@ -41,7 +41,7 @@ function Form(){
                 </div>
                 <div className="form-leftcontent-course">
                     <p>Khóa học mà bạn quan tâm (*)</p>
-                    <select name="" id="">
+                    <select className="form-leftcontent-course-select" name="" id="">
                         <option value="" disabled selected hidden>Lựa chọn khóa học</option>
                         <option value="">BASIC ENGLISH</option>
                         <option value="">PRE-IELTS</option>

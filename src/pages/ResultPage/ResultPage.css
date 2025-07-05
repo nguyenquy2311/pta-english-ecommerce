@@ -1,5 +1,5 @@
 .resultpage{
-    padding: 35px 45px 80px 45px;
+    padding: 35px 0;
 }
 .resultpage-title{
     display: flex;
@@ -19,5 +19,27 @@
 }
 .resultpage-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (min-width: 800px) and (max-width: 1150px){
+    .resultpage-content{
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 800px){
+    .resultpage-title{
+        justify-content: center;
+    }
+    .resultpage-title--leftcontent > p {
+        text-align: center;
+    }
+    .resultpage-title > img{
+        display: none;
+    }
+    .resultpage-content{
+        overflow: hidden;
+    }
 }

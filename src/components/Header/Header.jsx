@@ -2,7 +2,7 @@ import React from "react";
 import Herosection from '../HeroSection/Herosection';
 import './Header.css';
 
-function Header(){
+function Header() {
     return (
         <>
             <div class="header">
@@ -10,6 +10,9 @@ function Header(){
                 <p>Khóa học</p>
                 <p>Về giáo viên</p>
                 <button>Đăng ký ngay</button>
+                <span class="material-symbols-outlined">
+                    dehaze
+                </span>
                 <span class="material-symbols-outlined">
                     account_circle
                 </span>

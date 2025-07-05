@@ -32,3 +32,14 @@
     font-weight: 800;
     color: #1E3A8A;
 }
+
+@media (min-width: 690px) and (max-width: 970px){
+    .reasonpage-cards-item{
+        width: 520px;
+    }
+}
+@media (min-width: 520px) and (max-width: 690px){
+    .reasonpage-cards-item{
+        width: 95%;
+    }
+}

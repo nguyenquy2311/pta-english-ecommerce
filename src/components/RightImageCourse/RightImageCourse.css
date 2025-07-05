@@ -41,3 +41,28 @@
     font-weight: 800;
     color: #1E3A8A;
 }
+.coursedetail-right-des > button{
+    width: 100%;
+}
+
+@media ( min-width: 1030px ) and ( max-width: 1260px) {
+    .coursedetail-right-title > img{
+        width: 340px;
+        height: 340px;
+    }
+    .coursedetail-right-title > h1{
+        font-size: 47px;
+    }
+}
+
+@media ( min-width: 520px ) and ( max-width: 1030px){
+    .coursedetail-right{
+        padding: 40px 20px;
+        flex-direction: column;
+        height: max-content;
+    }
+    .coursedetail-right-des > button{
+        width: 100%;
+        height: 80px;
+    }
+}

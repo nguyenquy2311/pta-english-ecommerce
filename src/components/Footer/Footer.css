@@ -25,3 +25,12 @@
 .footer-contact > img{
     object-fit: contain;
 }
+
+/* Mobile */
+@media (min-width: 520px ) and (max-width: 1040px){
+    .footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 25px;
+    }
+}
