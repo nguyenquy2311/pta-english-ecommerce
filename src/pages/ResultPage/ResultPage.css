@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    padding: 0 45px;
 }
 .resultpage-title--leftcontent > p{
     font-family: var(--secondary-font);
