@@ -1,7 +1,4 @@
 import React from "react";
-import ptalogo from '/logo/ptalogo.webp';
-import heroimage from '/Herosection/herosection.webp';
-import pseudoheroimage from '/Herosection/pseudohero.webp';
 import CTAButton from '../CTAButton/CTAButton.jsx';
 import './Herosection.css';
 
@@ -9,7 +6,7 @@ function Herosection() {
     return (
         <div class="header-herosection">
             <div className="header-herosection-rightcontent">
-                <img src={ptalogo} alt="logo" />
+                <img src="/assets/logo/ptalogo.webp" alt="logo" />
                 <div className="header-herosection-rightcontent--content">
                     <p>English teacher</p>
                     <h1>Đinh Đắc phát</h1>
@@ -18,8 +15,8 @@ function Herosection() {
                 </div>
             </div>
             <div className="header-herosection-leftimage" >
-                <img src={heroimage} alt="hero" />
-                <img src={pseudoheroimage} alt="pseudo" />
+                <img src="/assets/Herosection/herosection.webp" alt="hero" />
+                <img src="assets/Herosection/pseudohero.webp" alt="pseudo" />
             </div>
         </div>
     );

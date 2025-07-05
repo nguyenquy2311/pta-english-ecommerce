@@ -1,9 +1,6 @@
 import React from "react";
-import Logo from '/logo/ptalogo.webp';
 import { getCoursesData } from "../../services/getData";
 import { useEffect, useState } from "react";
-import Star from "/courses/star.webp";
-import MoreArrow from "/courses/morearrow.webp";
 import CTAButton from "../../components/CTAButton/CTAButton";
 import LeftImageCourse from "../../components/LeftImageCourse/LeftImageCourse";
 import RightImageCourse from "../../components/RightImageCourse/RightImageCourse";
@@ -37,7 +34,7 @@ function Courses({
                         <p>COURSES OF</p>
                         <h1>Phát Tiếng Anh</h1>
                     </div>
-                    <img src={Logo} alt="PTA" />
+                    <img src="/assets/logo/ptalogo.webp" alt="PTA" />
                 </div>
 
                 <div className="courses-body">
@@ -53,11 +50,11 @@ function Courses({
                                     <div className="courses-body-course-content-description">
                                         <div className="courses-body-course-content-description--star">
                                             <p>{element.numberStar}</p>
-                                            <img src={Star} alt="" width="65px" height="20px" />
+                                            <img src="/assets/courses/star.webp" alt="" width="65px" height="20px" />
                                         </div>
                                         <div className="courses-body-course-content-description--more">
                                             <p>Chi tiết khóa học</p>
-                                            <img src={MoreArrow} alt="more" width="8px" height="15px" />
+                                            <img src="/assets/courses/morearrow.webp" alt="more" width="8px" height="15px" />
                                         </div>
                                     </div>
                                 </div>

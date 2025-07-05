@@ -1,6 +1,5 @@
 import React from "react";
 import CTAButton from "../../components/CTAButton/CTAButton";
-import Image from "/form/formimage.webp";
 import './Form.css';
 
 function Form(){
@@ -9,7 +8,7 @@ function Form(){
             <div className="form-rightcontent">
                 <h1>BẠN CÒN CÂU HỎI KHÁC ?</h1>
                 <p>Hãy để lại thông tin, thầy Phát sẽ liên hệ và hỗ trợ mọi vướng mắt của bạn.</p>
-                <img src={Image} alt="" width="375px" height="375px"/>
+                <img src="/assets/form/formimage.webp" alt="" width="375px" height="375px"/>
             </div>
             <form action="submit" className="form-leftcontent">
                 <div className="form-leftcontent-nameinput">

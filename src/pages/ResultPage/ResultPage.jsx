@@ -1,7 +1,6 @@
 import React from "react";
 import { useState,useEffect } from "react";
 import { getResultData } from "../../services/getData";
-import Logo from "/logo/ptalogo.webp";
 import './ResultPage.css';
 
 function ResultPage(){
@@ -24,7 +23,7 @@ function ResultPage(){
                         <p>KẾT QUẢ</p>
                         <h1>Từ học viên</h1>
                     </div>
-                    <img src={Logo} alt="" />
+                    <img src="/assets/logo/ptalogo.webp" alt="" />
                 </div>
                 <div className="resultpage-content">
                     {resultData.length > 0 && resultData.map((e,index) => {
