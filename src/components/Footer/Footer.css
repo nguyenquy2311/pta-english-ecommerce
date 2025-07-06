@@ -27,7 +27,7 @@
 }
 
 /* Mobile */
-@media (min-width: 380px ) and (max-width: 1040px){
+@media (min-width: 280px ) and (max-width: 1040px){
     .footer{
         flex-direction: column-reverse;
         align-items: center;

@@ -43,8 +43,12 @@
         width: 95%;
     }
 }
-@media (min-width: 380px) and (max-width: 520px){
+@media (min-width: 280px) and (max-width: 520px){
     .reasonpage-cards-item{
-        width: 95%;
+        width: 100%;
+    }
+    .reasonpage-cards-item > img{
+        width: 200px;
+        height: 200px;
     }
 }

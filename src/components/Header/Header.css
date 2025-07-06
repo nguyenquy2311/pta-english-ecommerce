@@ -52,7 +52,7 @@
     color: white;
 }
 
-@media (min-width: 380px) and (max-width: 950px){
+@media (min-width: 280px) and (max-width: 950px){
     .header{
         justify-content: space-between;
         height: 70px;

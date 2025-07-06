@@ -73,3 +73,18 @@
         padding: 2.5rem 0.938rem;
     }
 }
+
+@media ( min-width: 280px ) and ( max-width: 380px){
+    .coursedetail-right{
+        flex-direction: column;
+        padding: 2.5rem 0.938rem;
+        gap: 20px;
+    }
+    .coursedetail-right-title > img{
+        width: 340px;
+        height: 340px;
+    }
+    .coursedetail-right-title > h1{
+        font-size: 3.35rem;
+    }
+}

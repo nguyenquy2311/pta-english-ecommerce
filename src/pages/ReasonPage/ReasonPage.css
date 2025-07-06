@@ -27,9 +27,11 @@
     }
 }
 
-@media (min-width: 380px) and (max-width: 520px){
+@media (min-width: 280px) and (max-width: 520px){
     .reasonpage-cards{
         flex-direction: column;
     }
+    .reasonpage{
+        padding: 2.5rem 0.938rem;
+    }
 }
-

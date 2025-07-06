@@ -56,3 +56,14 @@
         overflow: hidden;
     }
 }
+
+@media (min-width: 280px) and (max-width: 380px){
+    .resultpage-title > img{
+        display: none;
+    }
+    .resultpage-title--leftcontent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
