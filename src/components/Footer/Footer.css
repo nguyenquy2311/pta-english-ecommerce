@@ -12,25 +12,45 @@
     font-size: 1rem;
     line-height: 1.75rem;
 }
-.footer-contact > div > img{
+.footer-contact > div > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-contact > div > div > img{
     width: 20px;
     height: 20px;
 }
-.footer-contact > div > span{
+.footer-contact > div > div > span{
     font-family: var(--primary-font);
     font-weight: 600;
     font-size: 1.25rem;
     line-height: 1.75rem;
 }
-.footer-contact > img{
+.footer-contact > div > img{
     object-fit: contain;
 }
 
-/* Mobile */
-@media (min-width: 280px ) and (max-width: 1040px){
+/* Tablet */
+@media (min-width: 450px ) and (max-width: 1040px){
     .footer{
         flex-direction: column-reverse;
         align-items: center;
         padding: 1.5625rem;
+    }
+}
+/* Mobile */
+@media (min-width: 280px ) and (max-width: 450px){
+    .footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 1.5625rem 0.938rem;
+    }
+    .footer > img{
+        width: 260px;
+    }
+    .footer-contact > div{
+        flex-direction: column;
+        align-items: start;
     }
 }
