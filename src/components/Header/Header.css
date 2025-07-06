@@ -9,14 +9,20 @@
     justify-content: flex-end;
     align-items: center;
     gap: 65px;
-    padding: 20px 80px;
+    padding: 1.25rem 5rem;
 }
 .header > p{
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 13.9642px;
-    line-height: 17px;
+    font-size: 0.87276rem;
+    line-height: 1.0625rem;
+    padding: 20px 0px;
     color: #FFFFFF;
+    transition: color 0.1s ease-in-out;
+}
+.header > p:hover{
+    cursor: pointer;
+    color: rgb(218, 215, 215);
 }
 .header > button {
     width: 120px;
@@ -26,9 +32,18 @@
     border-radius: 15px;
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 12.3214px;
-    line-height: 15px;
+    font-size: 0.77009rem;
+    line-height: 0.9375rem;
     color: #131313;
+    transition: background-color 0.15s ease-in-out,
+                color 0.15s ease-in-out,
+                border 0.15s ease-in-out;
+}
+.header > button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
 }
 .header > span:nth-child(5){
     display: none;
@@ -37,13 +52,13 @@
     color: white;
 }
 
-@media (min-width: 520px) and (max-width: 950px){
+@media (min-width: 380px) and (max-width: 950px){
     .header{
         justify-content: space-between;
         height: 70px;
         position: static;
         background-color: #1E3A8A;
-        padding: 5px 20px;
+        padding: 0.3125rem 1.25rem;
     }
     .header > p{
         display: none;
@@ -53,9 +68,9 @@
     }
     .header > span:nth-child(5){
         display: inline-block;
-        font-size: 45px;
+        font-size: 2.8125rem;
     }
     .header > span:nth-child(6){
-        font-size: 45px;
+        font-size: 2.8125rem;
     }
 }

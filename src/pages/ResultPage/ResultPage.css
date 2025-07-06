@@ -1,26 +1,29 @@
 .resultpage{
-    padding: 35px 0;
+    padding: 2.1875rem 0;
 }
 .resultpage-title{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    padding: 0 45px;
+    padding: 0 2.8125rem;
 }
 .resultpage-title--leftcontent > p{
     font-family: var(--secondary-font);
     font-weight: 700;
-    font-size: 24.6428px;
-    line-height: 30px;
+    font-size: 1.54018rem;
+    line-height: 1.875rem;
     letter-spacing: 0.18538em;
 }
 .resultpage-title--leftcontent > h1{
     font-family: var(--primary-font);
-    font-size: 57.4998px;
+    font-size: 3.59374rem;
 }
 .resultpage-content{
     display: flex;
     justify-content: center;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
     gap: 20px;
 }
 
@@ -37,6 +40,15 @@
     .resultpage-title--leftcontent > p {
         text-align: center;
     }
+    .resultpage-title > img{
+        display: none;
+    }
+    .resultpage-content{
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 520px){
     .resultpage-title > img{
         display: none;
     }

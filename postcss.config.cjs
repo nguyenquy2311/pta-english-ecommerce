@@ -2,7 +2,7 @@ module.exports = {
   plugins: {
     'postcss-pxtorem': {
       rootValue: 16,
-      propList: ['font-size', 'padding', 'margin'],
+      propList: ['font-size', 'padding','line-height', 'margin'],
       replace: true,
     },
   },

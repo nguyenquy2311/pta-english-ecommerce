@@ -1,7 +1,7 @@
 .footer{
     display: flex;
     justify-content: space-between;
-    padding: 45px;
+    padding: 2.8125rem;
 }
 .footer-contact > div{
     display: flex;
@@ -9,8 +9,8 @@
     gap:7.5px;
     font-family: var(--secondary-font);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 1rem;
+    line-height: 1.75rem;
 }
 .footer-contact > div > img{
     width: 20px;
@@ -19,18 +19,18 @@
 .footer-contact > div > span{
     font-family: var(--primary-font);
     font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
 }
 .footer-contact > img{
     object-fit: contain;
 }
 
 /* Mobile */
-@media (min-width: 520px ) and (max-width: 1040px){
+@media (min-width: 380px ) and (max-width: 1040px){
     .footer{
         flex-direction: column-reverse;
         align-items: center;
-        padding: 25px;
+        padding: 1.5625rem;
     }
 }

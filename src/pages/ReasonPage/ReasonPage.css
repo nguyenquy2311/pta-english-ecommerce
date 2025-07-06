@@ -1,5 +1,5 @@
 .reasonpage{
-    padding: 40px 45px 85px 45px;
+    padding: 2.5rem 2.8125rem 5.3125rem 2.8125rem;
     background: #F7F7F7;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
     font-family: var(--primary-font);
     text-align: center;
     color: #1E3A8A;
-    font-size: 57.4998px;
+    font-size: 3.59374rem;
     text-transform: uppercase;
 }
 .reasonpage-cards{
@@ -24,6 +24,12 @@
     .reasonpage-cards{
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 520px){
+    .reasonpage-cards{
+        flex-direction: column;
     }
 }
 

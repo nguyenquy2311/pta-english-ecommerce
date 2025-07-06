@@ -5,7 +5,7 @@
     min-height: max-content;
     gap:55px;
     background-color: #1E3E8A;
-    padding: 40px 45px 40px 45px;
+    padding: 2.5rem 2.8125rem 2.5rem 2.8125rem;
 }
 .form-rightcontent{
     display: flex;
@@ -16,8 +16,7 @@
 .form-rightcontent > h1{
     font-family: var(--primary-font);
     font-weight: 800;
-    font-size: 57px;
-    width: 500px;
+    font-size: 3.5625rem;
     text-align: start;
     color: #FFFFFF;
 }
@@ -25,9 +24,8 @@
     font-family: var(--secondary-font);
     font-style: normal;
     font-weight: 500;
-    font-size: 20.5356px;
+    font-size: 1.28348rem;
     text-align: start;
-    width: 500px;
     color: #CFCFCF;
 }
 .form-leftcontent{
@@ -39,8 +37,8 @@
 .form-leftcontent > div > p{
     font-family: var(--primary-font);
     font-weight: 500;
-    font-size: 20.5356px;
-    line-height: 24px;
+    font-size: 1.28348rem;
+    line-height: 1.5rem;
     margin-bottom: 5px;
     color: #FFFFFF;
 }
@@ -48,8 +46,8 @@
     font-family: var(--primary-font);
     margin-bottom: 5px;
     font-weight: 500;
-    font-size: 20.5356px;
-    line-height: 24px;
+    font-size: 1.28348rem;
+    line-height: 1.5rem;
     color: #FFFFFF; 
 }
 .form-leftcontent > div > input{
@@ -57,14 +55,14 @@
     height: 55px;
     border-radius: 15px;
     border: none;
-    padding: 10px;
+    padding: 0.625rem;
     outline: none;
 }
 .form-leftcontent-who-select,
 .form-leftcontent-course-select{
     width: 100%;
     height: 55px;
-    padding: 10px;
+    padding: 0.625rem;
     border-radius: 15px;
     border: none;
     outline: none;
@@ -85,7 +83,7 @@
     height: 55px;
     border-radius: 15px;
     border: none;
-    padding: 10px;
+    padding: 0.625rem;
     outline: none;
 }
 .form-leftcontent > button{
@@ -96,7 +94,7 @@
 @media (min-width: 520px) and (max-width: 1150px){
     .form{
         flex-direction: column;
-        padding: 40px 20px;
+        padding: 2.5rem 1.25rem;
     }
     .form-rightcontent > img{
         display: none;
@@ -120,5 +118,17 @@
     .form-leftcontent > button{
         width: 100%;
         height: 80px;
+    }
+}
+
+@media (min-width: 380px) and (max-width:520px){
+    .form{
+        flex-direction: column;
+    }
+    .form-rightcontent > img{
+        display: none;
+    }
+    .form{
+        padding: 2.5rem 0.938rem;
     }
 }
