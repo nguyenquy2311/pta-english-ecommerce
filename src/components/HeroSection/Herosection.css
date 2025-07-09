@@ -1,6 +1,7 @@
 .header-herosection{
     width: 100%;
     height: calc(var(--vh,1vh) * 100);
+    min-height: max-content;
     position: relative;
     z-index: 1;
     display: flex;

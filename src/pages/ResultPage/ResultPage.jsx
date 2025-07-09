@@ -28,7 +28,7 @@ function ResultPage(){
                 <div className="resultpage-content">
                     {resultData.length > 0 && resultData.map((e,index) => {
                         return (
-                            <img key={e.id} src={e.img} alt="result" width="380px" height="325px"/>
+                            <img className="slideshow" key={e.id} src={e.img} alt="result" width="380px" height="325px"/>
                         )
                     })}
                 </div>

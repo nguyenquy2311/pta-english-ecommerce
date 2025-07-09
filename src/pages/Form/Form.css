@@ -3,6 +3,7 @@
     align-items: center;
     width: 100%;
     height: calc(var(--vh,1vh) * 100);
+    min-height: max-content;
     gap:55px;
     background-color: #1E3E8A;
     padding: 2.5rem 2.8125rem 2.5rem 2.8125rem;
@@ -108,6 +109,7 @@
     .form{
         flex-direction: column;
         padding: 2.5rem 1.25rem;
+        gap: 20px;
     }
     .form-rightcontent > img{
         display: none;
@@ -137,6 +139,7 @@
 @media (min-width: 280px) and (max-width:520px){
     .form{
         flex-direction: column;
+        gap: 20px;
     }
     .form-rightcontent > img{
         display: none;

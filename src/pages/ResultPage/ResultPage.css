@@ -1,5 +1,6 @@
 .resultpage{
     padding: 2.1875rem 0;
+    min-height: max-content;
 }
 .resultpage-title{
     display: flex;
@@ -24,8 +25,23 @@
     overflow-x: scroll;
     scrollbar-width: none;
     scroll-behavior: smooth;
-    gap: 20px;
+    gap: 40px;
 }
+
+  
+  .slideshow {
+    animation: scroll 8s linear infinite; /* Tự động cuộn */
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
 
 @media (min-width: 800px) and (max-width: 1150px){
     .resultpage-content{
@@ -42,9 +58,6 @@
     }
     .resultpage-title > img{
         display: none;
-    }
-    .resultpage-content{
-        overflow: hidden;
     }
 }
 
