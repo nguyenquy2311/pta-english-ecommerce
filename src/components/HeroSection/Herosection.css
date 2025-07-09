@@ -1,4 +1,5 @@
 .header-herosection{
+    position: relative;
     width: 100%;
     height: calc(var(--vh,1vh) * 100);
     min-height: max-content;
@@ -25,14 +26,14 @@
     gap: 10px;
 }
 .header-herosection-rightcontent--content > p:nth-child(1){
-    font-family: 'Raleway';
+    font-family: var(--primary-font);
     font-weight: 800;
     font-size: 2.05356rem;
     line-height: 2.4375rem;
     color: #C50003;
 }
 .header-herosection-rightcontent--content > h1{
-    font-family: 'Raleway';
+    font-family: var(--primary-font);
     font-weight: 800;
     font-size: 3.2857rem;
     line-height: 3.875rem;

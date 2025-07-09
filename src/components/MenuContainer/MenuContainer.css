@@ -1,0 +1,33 @@
+.menucontainer{
+    width: 200px;
+    height: max-content;   
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    z-index: 4;
+    background-color: #1E3A8A;
+    padding:0.938rem;
+}
+.menucontainer::after{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    content: "";
+    width: 100vw;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background-color: rgb(27, 27, 27);
+}
+.menucontainer > p{
+    padding: 10px 0;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 1.54018rem;
+    line-height: 2.125rem;
+    color: white;
+}
+.menucontainer > svg{
+    margin-top: 10px;
+}
