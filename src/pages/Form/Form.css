@@ -63,14 +63,27 @@
     width: 100%;
     height: 55px;
     padding: 0.625rem;
+    appearance: none;
     border-radius: 15px;
     border: none;
     outline: none;
+}
+.form-leftcontent-course-select{
+    font-family: var(--primary-font);
+}
+.form-leftcontent-who-select{
+    font-family: var(--primary-font);
+}
+.form-leftcontent > div > input::placeholder{
+    font-family: var(--primary-font);
 }
 .form-leftcontent-input{
     display: flex;
     justify-content: space-between;
     gap:10px;
+}
+.form-leftcontent-input > div > input::placeholder{
+    font-family: var(--primary-font);
 }
 .form-leftcontent-input-birthdate{
     width: 100%;

@@ -9,7 +9,8 @@ html{
 }
 body{
     overflow-x: hidden;
-    overscroll-behavior-x: contain ;
+    overscroll-behavior-x: contain;
+    min-width: 280px;
 }
 .applayout{
     position: relative;

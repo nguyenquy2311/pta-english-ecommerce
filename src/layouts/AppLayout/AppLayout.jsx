@@ -7,15 +7,15 @@ import Form from "../../pages/Form/Form.jsx";
 import Footer from '../../components/Footer/Footer.jsx';
 import './AppLayout.css';
 
-function AppLayout(){
+function AppLayout() {
     return (
         <div className="applayout">
             <Header />
             <Courses />
             <ReasonPage />
             <ResultPage />
-            <Form/>
-            <Footer/>
+            <Form />
+            <Footer />
         </div>
     )
 };

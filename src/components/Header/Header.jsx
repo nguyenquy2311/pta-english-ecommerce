@@ -1,5 +1,6 @@
 import React from "react";
 import Herosection from '../HeroSection/Herosection';
+import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
 import './Header.css';
 
 function Header() {
@@ -13,9 +14,12 @@ function Header() {
                 <span class="material-symbols-outlined">
                     dehaze
                 </span>
-                <span class="material-symbols-outlined">
-                    account_circle
-                </span>
+                <SignedOut>
+                    <SignInButton />
+                </SignedOut>
+                <SignedIn>
+                    <UserButton />
+                </SignedIn>
             </div>
             <Herosection />
         </>
