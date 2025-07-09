@@ -1,6 +1,6 @@
 .header-herosection{
     width: 100%;
-    height: 670px;
+    height: calc(var(--vh,1vh) * 100);
     position: relative;
     z-index: 1;
     display: flex;
@@ -16,8 +16,7 @@
 .header-herosection-rightcontent > img{
     position: absolute;
     top: 62px;
-    width: 200px;
-    height: 100px;
+    width: 12.5rem;
 }
 .header-herosection-rightcontent--content{
     display: flex;

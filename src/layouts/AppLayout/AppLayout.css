@@ -15,7 +15,12 @@ body{
 .applayout{
     position: relative;
 }
-
+/* Tablet */
+@media (min-width: 950px) and (max-width: 110px){
+    html{
+        font-size: 14px;
+    }
+}
 /* Mobile */
 @media (min-width: 320px) and (max-width: 950px){
     html{

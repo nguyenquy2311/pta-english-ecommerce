@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     width: 100%;
-    min-height: max-content;
+    height: calc(var(--vh,1vh) * 100);
     gap:55px;
     background-color: #1E3E8A;
     padding: 2.5rem 2.8125rem 2.5rem 2.8125rem;

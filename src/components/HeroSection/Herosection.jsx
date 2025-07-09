@@ -9,7 +9,7 @@ function Herosection() {
                 <img src="/assets/logo/ptalogo.webp" alt="logo" />
                 <div className="header-herosection-rightcontent--content">
                     <p>English teacher</p>
-                    <h1>Đinh Đắc phát</h1>
+                    <h1>Đinh Đắc Phát</h1>
                     <p>Đơn giản - dễ hiểu</p>
                     <CTAButton />
                 </div>

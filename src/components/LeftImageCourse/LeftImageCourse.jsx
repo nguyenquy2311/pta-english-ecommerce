@@ -16,7 +16,7 @@ function LeftImageCourse({
     return (
         <div className="coursedetail-left">
             <div className="coursedetail-left-title">
-                <img src="/assets/courses/basicenglish.webp" alt="" width="440px" height="440px"/>
+                <img src="/assets/courses/basicenglish.webp" alt=""/>
                 <h1>{name}</h1>
             </div>
             <div className="coursedetail-left-des">
