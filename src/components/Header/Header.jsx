@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
 import { useLocation } from "react-router-dom";
-import MenuContainer from "../menucontainer/menucontainer";
+import MenuContainer from "../Menucontainer/Menucontainer.jsx";
 import './Header.css';
 
 function Header({handleEdit, blurStatus, handleBlurStatus, isEdit }) {
