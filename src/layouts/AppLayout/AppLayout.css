@@ -15,6 +15,15 @@ body{
 .applayout{
     position: relative;
 }
+textarea{
+    width: max-content;
+    height: max-content;
+    border-radius: 15px;
+    outline: none;
+    resize: none;
+    background-color: transparent;
+    text-align: center;
+}
 /* Tablet */
 @media (min-width: 950px) and (max-width: 110px){
     html{

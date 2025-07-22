@@ -8,7 +8,6 @@ function ResultPage(){
     useEffect(() => {
         getResultData()
             .then((data) => {
-                console.log(data);
                 setResultData(data);
             })
             .catch((err) => {

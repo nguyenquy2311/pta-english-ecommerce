@@ -9,18 +9,9 @@
     background-color: #1E3A8A;
     padding:0.938rem;
 }
-.menucontainer::after{
-    position: absolute;
-    top: 0;
-    left: 200px;
-    content: "";
-    width: 100vw;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.8;
-    background-color: rgb(27, 27, 27);
-}
-.menucontainer > p{
+.menucontainer > .option{
+    display: block;
+    text-decoration: none;
     padding: 10px 0;
     font-family: var(--primary-font);
     font-weight: 500;
@@ -30,4 +21,10 @@
 }
 .menucontainer > svg{
     margin-top: 10px;
+}
+
+@media (min-width: 985px){
+    .menucontainer{
+        display: none;
+    }
 }

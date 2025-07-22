@@ -9,7 +9,6 @@ function ReasonPage(){
     useEffect(() => {
         getReasonData()
             .then((data) => {
-                console.log(data);
                 setReasonData(data);
             })
             .catch((err) => {

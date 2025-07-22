@@ -1,11 +1,20 @@
 import React from "react";
 import './CTAButton.css';
 
-function CTAButton(){
+function CTAButton({title,isEdit}){
     return (
-        <button class="cta-button">
-            Đăng ký ngay
-        </button>
+        <>
+            {!isEdit ? (
+                    <button class="cta-button">
+                        <p>{title}</p>
+                    </button>
+                ) : (
+                    <button class="cta-button">
+                        <textarea name="buttonTitle" id="">{title}</textarea>
+                    </button>
+                )
+            }
+        </>
     )
 }
 
